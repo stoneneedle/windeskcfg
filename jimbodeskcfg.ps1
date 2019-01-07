@@ -8,6 +8,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; iex `
 
 # Install instructions for chocolatey
 # Apps: Adobe Reader, Chrome, VLC, NPP
+choco install poshgit -y
 choco install adobereader -y
 choco install googlechrome -y
 choco install vlc -y
